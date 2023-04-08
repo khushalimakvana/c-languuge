@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+   int i,j;
+   i=1;
+   do
+   {
+     j=1;
+     do
+	 {
+		 if(i%2==0) 
+        printf("%d",i);
+		i++;
+	 }while(j<=5);
+	 printf("\n");
+	 j++;
+   }while(i<=5);
+   
+
+	
+}	
+	

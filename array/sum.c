@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+    int a[5],b[5],sum[5],i;
+	for(i=0;i<5;i++)
+	{
+	  printf("enter a[%d]");
+	  scanf("%d",a[i]);
+	}
+    for(i=0;i<5;i++)
+{
+    printf(" enter b[%d]");
+    scanf("%d",b[i]);
+}
+ printf("sum of the array:\n");
+for(i=0;i<5;i++)
+{
+   sum[i]=a[i]+b[i];
+   printf("%d\t %d\t %d\t",a[i],b[i],sum[i]);
+}
+}   

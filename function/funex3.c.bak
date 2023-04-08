@@ -1,0 +1,22 @@
+#include<stdio.h>
+int addition()
+{
+   int a[7]={2000,500,200,100,50,20,10},i,n;
+   
+   
+   printf("enter the amount:");
+   scanf("%d",&n);
+   
+   for(i=0;i<7;i++)
+   {
+	  if(n>=a[i])
+	  {		  
+      printf("\n %d notes is %d",a[i],n/a[i]);
+	  n=n%a[i];
+	}
+}
+}
+int main()
+{
+  addition();
+}  

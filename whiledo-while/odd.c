@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+    int i,n;
+	i=1;
+	do
+	{
+	   if(i%2==1)
+	   printf("%d",i);
+   i++;
+	   }while(i<=50);
+	 }  

@@ -1,0 +1,27 @@
+#include<stdio.h>
+int dis(int a[], int n)
+{
+   int min,max,i;
+   min=max=a[0];
+   for(i=1;i<n;i++)
+   {
+     if(min>a[i]);
+	 min=a[i];
+	 if(max<a[i])
+	 max=a[i];
+	}
+     printf("minimum nu. is : %d",min);
+     printf("\n maximum no. is : %d",max);
+}
+int main()
+{
+   int arr[5],i,n;
+   printf("enter size of the array: ");
+   scanf("%d",&n);
+   printf("enter element in array:")  ;
+   for(i=0;i<n;i++)
+   {
+    scanf("%d",arr[i]);
+  }
+   dis(arr,n);
+}   
